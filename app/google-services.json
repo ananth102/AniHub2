@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "310447663988",
+    "firebase_url": "https://anihub-9bd69.firebaseio.com",
+    "project_id": "anihub-9bd69",
+    "storage_bucket": "anihub-9bd69.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310447663988:android:be5b98b7879b9fe2",
+        "android_client_info": {
+          "package_name": "com.raneshprasad.anihub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310447663988-unb3msurilalv2j2op5gn7v6eevciktn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZuayBcSCEAY1eLOGql78y6SKm85_Djc0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

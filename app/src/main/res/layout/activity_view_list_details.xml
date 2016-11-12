@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_view_list_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.raneshprasad.anihub.ViewListDetails"
+    android:background="@android:color/holo_blue_light">
+
+    <TextView
+        android:text="Here is who needs your help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:id="@+id/textView_title"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="25dp" />
+
+    <TextView
+        android:text="Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_title"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="23dp"
+        android:id="@+id/textView_Viewname"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18dp" />
+
+    <TextView
+        android:text="Phone Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_Viewname"
+        android:layout_alignEnd="@+id/textView_Viewname"
+        android:layout_marginTop="23dp"
+        android:id="@+id/textView_phView"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18dp" />
+
+    <TextView
+        android:text="Severity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:id="@+id/textView_severeView"
+        android:layout_below="@+id/textView_phView"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18dp" />
+
+    <TextView
+        android:text="Address: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_severeView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="37dp"
+        android:id="@+id/textView_addressView"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/common_full_open_on_phone"
+        android:layout_below="@+id/textView_addressView"
+        android:layout_alignEnd="@+id/textView_severeView"
+        android:layout_marginTop="65dp"
+        android:id="@+id/imageView_View" />
+
+    <Button
+        android:text="SMS for Help"
+        android:layout_width="wrap_content"
+        android:background="@drawable/curvedbutton"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_SMS"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView_title" />
+
+    <Button
+        android:text="Show Location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/curvedbutton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/textView_title"
+        android:layout_marginEnd="18dp"
+        android:id="@+id/button_golocation"
+        android:textColor="@color/common_google_signin_btn_text_dark_default" />
+</RelativeLayout>
